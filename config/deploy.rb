@@ -8,7 +8,7 @@ set :repo_url, 'git@github.com:zzch/Alwoodley.git'
 
 set :keep_releases, 3
 
-set :linked_files, %w{config/database.yml}
+set :linked_files, %w{config/database.yml config/secrets.yml}
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets public/system}
 
 set :use_sudo, false
