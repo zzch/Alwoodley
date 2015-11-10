@@ -6,6 +6,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails', '~> 4.0.3'
 gem 'turbolinks', '~> 2.5.3'
+gem 'mysql2', '~> 0.3.17'
 gem 'rufus-scheduler'
 
 group :development, :test do
