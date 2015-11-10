@@ -4,7 +4,7 @@ lock '3.3.5'
 set :application, 'booking'
 
 set :scm, :git
-set :repo_url, 'git@github.com:zzch/Seminole.git'
+set :repo_url, 'git@github.com:zzch/Alwoodley.git'
 
 set :keep_releases, 3
 
