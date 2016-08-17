@@ -11,7 +11,7 @@ scheduler.every '10m' do
     response = http.request(request)
     json = JSON.parse(response.body)
     SchedulerLog.create!(result: e.message)
-  rescue StandardException => e
+  rescue
     SchedulerLog.create!(result: 'failure')
   end
 end
@@ -24,7 +24,7 @@ scheduler.every '10m' do
     response = http.request(request)
     json = JSON.parse(response.body)
     SchedulerLog.create!(result: e.message)
-  rescue StandardException => e
+  rescue
     SchedulerLog.create!(result: 'failure')
   end
 end
